@@ -9,6 +9,7 @@ sigma = 1
 x = np.arange(-5, 5, 0.1)
 y = stats.norm.pdf(x, 0, 1)
 plt.plot(x, y)
+#σ is sigma标准差，μ为期望
 plt.title(r'Normal distribution with $\mu=0,\ \sigma=1$')
 plt.xlabel('x')
 plt.ylabel('Probability density') 
